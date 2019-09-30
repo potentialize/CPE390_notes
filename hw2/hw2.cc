@@ -14,6 +14,9 @@
         max clock:  1.5 GHz
         mem speed:  3.2 MHz (https://www.raspberrypi.org/documentation/configuration/config-txt/overclocking.md)
 
+  Interesting that the raspi 4 has a higher memory frequency than my laptop.
+  The laptop is +- 5x faster. I have no idea how to explain this with the clock speeds. (# cores should not matter)
+  Maybe the pointer logic or the pipeline is less efficient on the pi.
 */
 
 #include <iostream>
