@@ -2,12 +2,17 @@
   author: Bruno Roemers
   I pledge my honor that I have abided by the Stevens Honor System.
 
-  n:            10^7
-  #trials:      200
-  compile:      g++ hw2.cc -o hw2
-  t on laptop:  4.430s, 4.377s, 4.622s, 4.363s, 4.348s
-        avg:    4.428s
-  t on raspi:
+  n:                10^7
+  #trials:          200
+  compile:          g++ hw2.cc -o hw2
+  t on laptop:      4.430s, 4.377s, 4.622s, 4.363s, 4.348s
+        avg:        4.428s
+        max clock:  2.8 GHz (cat /proc/meminfo)
+        mem speed:  2.4 MHz (lshw => clock of system memory)
+  t on raspi 4:     23.544s, 23.587s
+        avg:        23.566s
+        max clock:  1.5 GHz
+        mem speed:  3.2 MHz (https://www.raspberrypi.org/documentation/configuration/config-txt/overclocking.md)
 
 */
 
